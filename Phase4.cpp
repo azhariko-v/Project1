@@ -30,7 +30,7 @@ public:
     mutex& getMutex() {
         return mtx;//initalize mutex
     }
-};
+}
 
 void transfer(Account &from, Account &to, int amount) {//deadlock resolution
     if (&from < &to) {//compare account address to determine if locked
