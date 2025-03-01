@@ -25,7 +25,7 @@ public:
         transaction(amount1);
         other.transaction(amount2);
     }
-};
+}
 
 void unprotectedTransaction(Account &account, double amount) {//unprotected transaction
     account.transaction(amount);
