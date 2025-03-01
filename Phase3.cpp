@@ -30,7 +30,7 @@ public:
         transaction(amount1);
         other.transaction(amount2);
     }
-};
+}
 
 void transferMoney(Account &from, Account &to, double amount1, double amount2) {
     from.transfer(to, amount1, amount2);  //transfer between two accounts
